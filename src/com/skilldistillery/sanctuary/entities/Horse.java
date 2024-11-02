@@ -10,6 +10,7 @@ public class Horse extends Animal {
 	}
 	@Override
 	public void eat(int amount) {
+		makeNoise();
 		System.out.println("Neigh neigh, I'm munching " + amount + " apples");
 	}
 

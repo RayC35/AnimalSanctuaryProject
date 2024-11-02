@@ -11,8 +11,11 @@ public class Crow extends Animal {
 	
 	@Override
 	public void eat(int amount) {
-		System.out.println("Caw-caw, caw-caw! I'm grubbing on " + amount + " grubworms");
+		makeNoise();
+		System.out.println("I'm grubbing on " + amount + " grubworms");
 		
 	}
+	
+		
 
 }

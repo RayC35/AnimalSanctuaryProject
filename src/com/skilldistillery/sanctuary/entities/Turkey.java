@@ -11,7 +11,8 @@ public class Turkey extends Animal {
 	}
 	@Override
 	public void eat(int amount) {
-		System.out.println("Gobble gobble, I'm loving these " + amount + " acorns.");
+		makeNoise();
+		System.out.println("I'm loving these " + amount + " acorns.");
 		
 	}
 }

@@ -1,6 +1,6 @@
 package com.skilldistillery.sanctuary.entities;
 
-public class Animal {
+public class Animal extends Sanctuary {
 	
 	private String name;
 
