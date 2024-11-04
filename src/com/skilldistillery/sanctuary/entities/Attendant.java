@@ -1,18 +1,11 @@
 package com.skilldistillery.sanctuary.entities;
 
-public class Attendant extends Sanctuary {
+public class Attendant {
 	
 	public void makeRounds(Animal[] animals) {
 
-//	String Animal[] = new String[4];
-//	Animal[0] = " ";
-//	Animal[1] = " ";
-//	Animal[2] = " ";
-//	Animal[3] = null;
-//	String Animal[] = {"Turkey", "Crow", "Horse", "null"};
-	
 
-	System.out.println("Time to feed the animals");
+	System.out.println("\nTime to feed the animals!");
 
 	for(int i = 0; i < animals.length; i++) {
 		Animal a = animals[i];

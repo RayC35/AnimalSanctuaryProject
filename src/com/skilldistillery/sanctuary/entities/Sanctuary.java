@@ -4,6 +4,7 @@ public class Sanctuary {
 
 	private Animal[] animals = new Animal[5];
 	
+	
 	private Attendant attendant = new Attendant();
 
 	
@@ -21,16 +22,6 @@ public class Sanctuary {
 			}
 		}
 	}
-//	public void listAnimals(Animal[] animals) {
-//		for (Animal animal : animals) {
-//			int i = 0;
-//			if (animals[i] != null) {
-//			System.out.println(animal.getName());
-//		}
-//		else {
-//			System.out.println("This enclosure is empty");
-//		}
-//	}
 	
 	public void addAnimal(Animal animal) {
 		for (int i = 0; i < animals.length; i++) {
@@ -38,14 +29,16 @@ public class Sanctuary {
 				animals[i] = animal;
 				break;
 			}
+			else {
+				System.out.println("Sorry, the sanctuary is full");
+			}
 		}
-		
 	}
 	
 	public void startAttendantRounds() {
 		attendant.makeRounds(animals);
 	}
-
-	
-	
+	public void listAnimals() {
+		
+	}
 }
