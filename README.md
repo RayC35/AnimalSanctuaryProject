@@ -5,14 +5,14 @@ This program is meant to model the activities of an Animal Sanctuary. The user c
 currently residing at the sanctuary, name and add animals to the sanctuary, and have the sanctuary
 attendant feed the animals.
 
-##Technologies Used
-* Java
-* Eclipse
-* Sublime
-* Git/GitHub
-* MacOS Terminal
+## Technologies Used
+	* Java
+	* Eclipse
+	* Sublime
+	* Git/GitHub
+	* MacOS Terminal
 
-##Lessons Learned
+## Lessons Learned
 This project has proven to be too much for me at this moment. Going forward I'll need to ask for more
 clarification and help as we go through the workday. I should also make more of an effort for extra
 study once I get back home. Perhaps try looking at outside resources for different explanations
